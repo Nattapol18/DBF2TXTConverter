@@ -14,15 +14,15 @@ class DBFConverterApp:
         
         # กำหนดธีมสี
         self.COLORS = {
-            'primary': '#2563eb',        # สีน้ำเงินเข้ม
-            'secondary': '#3b82f6',      # สีน้ำเงิน
-            'background': '#f8fafc',     # สีพื้นหลังอ่อน
-            'surface': '#ffffff',        # สีขาว
-            'success': '#22c55e',        # สีเขียว
-            'warning': '#f59e0b',        # สีส้ม
-            'error': '#ef4444',          # สีแดง
-            'text': '#000000',           # เปลี่ยนเป็นสีดำ
-            'text_secondary': '#000000'   # เปลี่ยนเป็นสีดำ
+            'primary': '#2563eb',        
+            'secondary': '#3b82f6',      
+            'background': '#f8fafc',     
+            'surface': '#ffffff',        
+            'success': '#22c55e',        
+            'warning': '#f59e0b',       
+            'error': '#ef4444',          
+            'text': '#000000',           
+            'text_secondary': '#000000'   
         }
 
         # ตั้งค่าพื้นหลังหลัก
@@ -37,7 +37,7 @@ class DBFConverterApp:
         self.style.configure(
             "Primary.TButton",
             background=self.COLORS['primary'],
-            foreground='black',  # เปลี่ยนเป็นสีดำ
+            foreground='black',  
             font=('Tahoma', 12, 'bold'),
             padding=10
         )
@@ -46,14 +46,14 @@ class DBFConverterApp:
         self.style.configure(
             "Header.TLabel",
             background=self.COLORS['background'],
-            foreground='black',  # เปลี่ยนเป็นสีดำ
+            foreground='black',  
             font=('Tahoma', 24, 'bold')
         )
         
         self.style.configure(
             "SubHeader.TLabel",
             background=self.COLORS['surface'],
-            foreground='black',  # เปลี่ยนเป็นสีดำ
+            foreground='black',  
             font=('Tahoma', 12)
         )
 
